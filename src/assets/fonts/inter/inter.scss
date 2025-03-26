@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'InterDisplay';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local('InterDisplay'),
+    url('./InterDisplay-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'InterDisplay';
+  font-style: italic;
+  font-weight: 500;
+  src:
+    local('InterDisplay'),
+    url('./InterDisplay-MediumItalic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'InterDisplay';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('InterDisplay'),
+    url('./InterDisplay-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'InterDisplay';
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local('InterDisplay'),
+    url('./InterDisplay-BoldItalic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'InterDisplay';
+  font-style: normal;
+  font-weight: 900;
+  src:
+    local('InterDisplay'),
+    url('./InterDisplay-Black.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'InterDisplay';
+  font-style: italic;
+  font-weight: 900;
+  src:
+    local('InterDisplay'),
+    url('./InterDisplay-BlackItalic.woff2') format('woff2');
+}
