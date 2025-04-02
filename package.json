@@ -30,7 +30,6 @@
     "compodoc:build": "compodoc -p tsconfig.doc.json",
     "compodoc:build-and-serve": "compodoc -p tsconfig.doc.json -s",
     "compodoc:serve": "compodoc -s",
-    "lint": "ng lint",
     "commit": "cz",
     "format": "prettier --write \"src/**/*.{ts,html,scss,json}\"",
     "check-format": "prettier --check \"src/**/*.{ts,html,scss,json}\"",
@@ -96,7 +95,7 @@
   },
   "lint-staged": {
     "src/**/*.{js,json,css,scss,html,component.html,page.html}": "pretty-quick --staged",
-    "src/**/*.ts": "ng lint"
+    "**/*.ts": "ng lint"
   },
   "config": {
     "commitizen": {
