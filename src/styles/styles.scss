@@ -1,18 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
 //Tailwind globals import
-@use './globals.css';
+@use "./globals.css";
 
 //Prime customization & Fonts import
-@use './prime-custom.scss';
-@use '../assets/fonts/inter/inter.scss';
-@use '../assets/fonts/gilroy/gilroy.scss';
-@use '../assets/fonts/Gloock/gloock.scss';
-@use '../assets/fonts/montserrat/montserrat.scss';
+@use "./prime-custom.scss";
+@use "../assets/fonts/inter/inter.scss";
+@use "../assets/fonts/gilroy/gilroy.scss";
+@use "../assets/fonts/Gloock/gloock.scss";
+@use "../assets/fonts/montserrat/montserrat.scss";
 
 * {
   scroll-behavior: smooth;
-  font-family: 'Gilroy-Medium', Inter;
+  font-family: "Gilroy-Medium", Inter;
 
   &::-webkit-scrollbar {
     display: none;
