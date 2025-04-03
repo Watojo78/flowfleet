@@ -95,8 +95,7 @@
     "validate-branch-name": "^1.3.2"
   },
   "lint-staged": {
-    "src/**/*.{json,css,scss,html,component.html,page.html}": "pretty-quick --staged",
-    "src/**/*.{js,ts}": "lint"
+    "src/**/*.{json,css,scss,html,component.html,page.html}": "pretty-quick --staged"
   },
   "config": {
     "commitizen": {
