@@ -5,15 +5,27 @@ import { providePrimeNG } from 'primeng/config';
 import Aura from '@primeng/themes/aura';
 
 import { routes } from './app.routes';
+import { provideHttpClient } from '@angular/common/http';
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideAnimationsAsync(),
+    provideRouter(routes),
+    provideHttpClient(),
     providePrimeNG({
-        theme: {
-            preset: Aura
+      ripple: true,
+      csp: {
+          nonce: '...'
+      },
+      theme: {
+        preset: Aura,
+        options: {
+          prefix: 'p',
+          darkModeSelector: 'system',
+          cssLayer: false
         }
-    }),
-    provideRouter(routes)]
+      }
+    })
+  ]
 };
