@@ -33,7 +33,8 @@
     "commit": "cz",
     "format": "prettier --write \"src/**/*.{ts,html,scss,json}\"",
     "check-format": "prettier --check \"src/**/*.{ts,html,scss,json}\"",
-    "commitlint": "commitlint --edit"
+    "commitlint": "commitlint --edit",
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
@@ -94,8 +95,8 @@
     "validate-branch-name": "^1.3.2"
   },
   "lint-staged": {
-    "src/**/*.{js,json,css,scss,html,component.html,page.html}": "pretty-quick --staged",
-    "**/*.ts": "ng lint"
+    "src/**/*.{json,css,scss,html,component.html,page.html}": "pretty-quick --staged",
+    "src/**/*.{js,ts}": "lint"
   },
   "config": {
     "commitizen": {
