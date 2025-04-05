@@ -1,11 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{html,ts,scss}",
+    "./src/**/*.{html,ts,js}",
   ],
+  darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        interdisplay: ['InterDisplay', 'sans-serif'],
+        gilroy: ['Gilroy', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif']
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
-
