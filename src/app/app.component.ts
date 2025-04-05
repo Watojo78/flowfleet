@@ -4,7 +4,7 @@ import { PrimeNG } from 'primeng/config';
 import { FilterMatchMode } from 'primeng/api';
 
 @Component({
-  selector: 'fleet-root',
+  selector: 'fleet-core',
   imports: [RouterOutlet],
   standalone: true,
   template: `<router-outlet />`,
