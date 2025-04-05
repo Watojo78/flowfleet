@@ -9,6 +9,7 @@
 @use "../assets/fonts/gilroy/gilroy.scss";
 @use "../assets/fonts/Gloock/gloock.scss";
 @use "../assets/fonts/montserrat/montserrat.scss";
+@import url("https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-chubby/css/uicons-solid-chubby.css");
 
 * {
   scroll-behavior: smooth;
@@ -38,7 +39,6 @@ body {
   padding: 0;
   border: 0;
   width: 100%;
-  //user-select: none;
 }
 
 p,
@@ -64,4 +64,8 @@ i {
   &:before {
     background-color: rgb(0, 105, 0) !important;
   }
+}
+
+input {
+  width: 100%;
 }
