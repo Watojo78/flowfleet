@@ -1,0 +1,35 @@
+.auth {
+  &-wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 28% 72%;
+  }
+  &-form {
+  }
+  &-brand {
+    font-size: 28px;
+  }
+  &-hello {
+    font-size: 20px;
+  }
+  &-hero {
+  }
+}
+
+.form {
+  &-group {
+  }
+  &-submit {
+  }
+}
+
+input {
+  //border: none;
+  border-radius: 12.6px;
+  //background-color: rgb(237, 237, 237);
+}
+
+.remember-me,
+.forgot-password {
+  font-size: 12.1px;
+}

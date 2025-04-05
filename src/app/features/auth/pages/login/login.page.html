@@ -1,0 +1,38 @@
+<div class="auth-wrapper">
+  <div class="auth-form flex flex-col items-start justify-center p-14 gap-y-8">
+    <div class="auth-brand flex gap-x-2">
+      <i class="fi fi-sc-steering-wheel"></i>
+      <span class="font-interdisplay font-bold">FlowFleet Inc.</span>
+    </div>
+    <div class="auth-hello font-interdisplay">
+      <p class="font-interdisplay">Bon retour à vous !</p>
+    </div>
+    <div class="form-wrapper flex flex-col w-full gap-y-5">
+      <div class="form-group">
+        <p-floatlabel variant="on">
+          <input pInputText id="on_label" autocomplete="off" />
+          <label for="on_label">Adresse mail</label>
+        </p-floatlabel>
+      </div>
+      <div class="form-group">
+        <p-floatlabel variant="on">
+          <input pInputText id="on_label" autocomplete="off" />
+          <label for="on_label">Mot de passe</label>
+        </p-floatlabel>
+      </div>
+      <div class="form-group flex justify-between items-center">
+        <div class="remember-me">
+          <p-checkbox value="New York" inputId="ny" />
+          <label for="ny" class="ml-2">Se souvenir de moi</label>
+        </div>
+        <a routerLink="/forgot-password" class="forgot-password">
+          Mot de passe oublié ?
+        </a>
+      </div>
+      <div class="form-submit">
+        <p-button label="S'Authentifier" severity="contrast" />
+      </div>
+    </div>
+  </div>
+  <div class="auth-hero bg-blue-600"></div>
+</div>
